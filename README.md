@@ -1,2 +1,2 @@
 # Demo1
-測試用
+Pokemon和RPG已完成
