@@ -1,22 +1,3 @@
-//====================建立空白物件
-// var player=new Object;
-// player.name="Jay";
-// player.HP=100;
-// player.fight=function(){
-//     player.HP=player.HP-20;
-//     alert(player.name+"戰鬥扣了20HP");
-// };
-// player.rest=function(){
-//     player.HP=player.HP+10;
-//     alert(player.name+"休息回復了10HP");
-// };
-// player.report=function(){
-//     alert(player.name+": "+player.HP+"HP");
-// };
-// player.fight();
-// player.rest();
-// player.report();
-//======================
 function Player(name,hp){  //建構物件的函式
   //this 代表新建的空白物件
     this.Name=name;
