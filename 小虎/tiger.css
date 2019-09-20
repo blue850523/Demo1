@@ -1,0 +1,307 @@
+body{
+    font-family: "微軟正黑體";
+    margin: 0;
+}
+.header{
+    background-color: black;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    display: inline-block;
+    z-index: 1;
+}
+.header h1{
+    display: inline-block;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    color: white;
+    display: inline-block;
+    text-align: left;
+    font-weight:bold;
+    margin: 0 0 0 20px;
+}
+.menu{
+    float: right;
+    list-style: none;
+    font-size: 0px;
+}
+.menu li{
+    display: inline-block;
+    font-size: 30px;
+    padding:0 10px;
+}
+.menu li :hover{
+    background-color: white;
+    color: black;
+}
+#title{
+    position: absolute;
+    top: 550px;
+    text-align: center;
+    color: white;
+    left: 40%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+#title h2{
+    font-size: 40px;
+    margin: 0 0 24px 0;
+}
+#title p{
+    font-size: 26px;
+    line-height: 1.5;
+}
+.top{
+    width: 960px;
+    margin:auto;
+}
+.white{
+    height: 20px;
+}
+.wrap{
+    width: 960px;
+    height: auto;
+    margin: auto;
+    padding: 0 0 20px 0;
+    background-color: #EFE9E7;
+}
+.title2{
+    width: 100%;
+    height: 150px;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.title2 h2{
+    font-size: 30px;
+    display: inline-block;
+}
+.title2>.line{
+    width: 100px;
+    height: 10px;
+    border-top:1px solid black;
+    display: inline-block;
+}
+.feature{
+    display: flex;
+}
+.feature li{
+    text-align: center;
+    width: calc(99%/3);
+    margin:20px 10px auto;
+}
+.feature h3{
+    font-size: 20px;
+    padding: 20px;
+}
+.feature p{
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: start;
+}
+.feature img{
+    height: 250px;
+    width: 250px;
+}
+.wrap2{
+    width: 960px;
+    height: auto;
+    margin: auto;
+    background-color: wheat;
+}
+.feeder1{
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+}
+.feeder1 img{
+    width: 100%;
+    height: 100%;
+}
+.feeder2{
+    width: 50%;
+    height: 500px; 
+    float: left;
+    padding: 40px 30px 0 30px;
+    box-sizing: border-box;
+}
+.feeder2 h3{
+    font-size: 30px;
+    padding: 0 0 20px 0;
+}
+.feeder2 h4{
+    font-size: 22px;
+    padding: 0 0 20px 0;
+}
+.feeder2 p{
+    font-size: 16px;
+    line-height: 1.5; 
+}
+.clearfix{
+    width: 100%;
+    clear: both;
+}
+.wrap3{
+    width: 960px;
+    height: auto;
+    margin: auto;
+    padding: 40px 0 40px 0;
+    background-color: #EFE9E7;
+}
+.wrap3 h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+}
+.people{
+    width: 100%;
+    margin: auto;
+    font-size: 0;
+    display: flex;
+}
+.people li{
+    display: inline-block;
+    font-size: 16px;
+    width: 320px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.people li img{
+    float: left;
+    width: 30%;
+    margin: 0 0 10px 0;
+}
+.people li>.name{
+    font-size: 26px;
+    margin: 20px;
+    padding: 10px 10px 10px 80px;
+    background-color: burlywood;
+}
+.people li p{
+    padding: 0 0 0 90px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.wrap4{
+    width: 960px;
+    height: auto;
+    margin: auto;
+    padding: 40px 0 40px 0;
+}
+.wrap4 h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.map{
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+iframe{
+    width: 100%;
+    height: 450px;
+}
+.form{
+    width: 50%;
+    float: left;
+    height: 450px;
+    padding: 70px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+form{
+    line-height: 3em;
+}
+form>input{
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#name{
+    width: 70%;
+}
+#phone{
+    width: 70%;
+}
+#mail{
+    width: 70%;
+}
+#btn{
+    font-family: "微軟正黑體";
+    font-size: 16px;
+}
+form>.ok{
+    color: limegreen;
+}
+form>input:valid+.ok{  /*如果驗證成功*/
+    display: inline;
+}
+form>input:invalid+.ok{  /*如果驗證失敗*/
+    display: none;
+}
+.end{
+    width: 960px;
+    height: auto;
+    margin: auto;
+    padding: 40px 0 60px 0;
+    background-color: black;
+    color: white;    
+}
+.end h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.end p{
+    line-height: 1.5;
+}
+.about{
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 60px;
+}
+.contact{
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.message{
+    width: 25%;
+    float: right;
+    box-sizing: border-box;
+    padding: 40px 0 20px 0;
+}
+.message h1{
+    text-align: right;
+    margin-right: 40px;
+}
+.logo2{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+}
+.messagetype{
+    margin:20px 30px 0 0;
+    float: right;
+    display: flex;
+}
+.messagetype img{
+    width: 34px;
+    margin-right: 20px;
+}
