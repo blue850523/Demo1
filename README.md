@@ -1,2 +1,2 @@
 # Demo1
-Pokemon和RPG為前端網頁
+小虎 前端網頁基礎架構 (尚無RWD功能)
